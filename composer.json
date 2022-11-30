@@ -1,0 +1,16 @@
+{
+    "name" : "staditek/oop",
+    "description" : "PHP",
+    "type" : "project",
+    "authors" : [
+        {
+            "name" : "ARYA TIO WASESA",
+            "email" : "aryatiowasesa1306@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "OOP\\App\\" : "app" 
+        }
+    }
+}

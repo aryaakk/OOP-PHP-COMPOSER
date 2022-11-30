@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond $1 !^(index\.php)
+RewriteRule ^view/([^/\.]+)/?$ index.php?type=view&id=$1 [L]
+
+#redirect jika error
+
+ErrorDocument 404 /PHP%20BASIC/PHP_OOP_MAS_R/404.html
